@@ -34,7 +34,7 @@ def play (array)
     if array[counter].include? reply
       return "Playing #{array[counter]}"
     end
-    counter +=1
+    counter += 1
   end
   "Invalid input, please try again"
 end
