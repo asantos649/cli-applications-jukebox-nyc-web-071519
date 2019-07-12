@@ -47,11 +47,12 @@ def run(array)
   help
   puts "Please enter a command:"
   reply = gets.chomp
+  return reply
 #  loop do 
   until reply = "exit" 
     if reply == "help"
       help
-    elsif reply == reply#"list"
+    elsif reply == "list"
       list(array)
     elsif reply == "play"
       #play (array)
