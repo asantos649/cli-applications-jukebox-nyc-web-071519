@@ -60,7 +60,7 @@ def run(array)
     #  reply = "exit"
     end
  # end
-#  exit_jukebox
+  exit_jukebox
 end
   
 
