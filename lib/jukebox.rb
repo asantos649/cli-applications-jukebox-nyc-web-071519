@@ -47,8 +47,8 @@ def run(array)
   help
   puts "Please enter a command:"
   reply = gets.chomp
-  loop do 
-    break if reply = "exit" 
+#  loop do 
+  until reply = "exit" 
     if reply == "help"
       help
     elsif reply == "list"
