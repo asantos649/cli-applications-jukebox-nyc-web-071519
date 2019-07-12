@@ -36,6 +36,7 @@ def play (array)
     end
   end
   "Invalid input, please try again"
+end
 
 
 
