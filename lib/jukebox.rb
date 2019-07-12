@@ -35,6 +35,7 @@ def play (array)
       return "Playing #{array[counter]}"
     end
   end
+  counter += 1
   "Invalid input, please try again"
 end
 
