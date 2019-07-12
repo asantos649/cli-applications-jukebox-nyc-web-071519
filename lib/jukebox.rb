@@ -24,6 +24,7 @@ def list (array)
     puts "#{counter+1}. #{array[counter}"
     counter +=1
   end
+end
     
 
 
