@@ -22,6 +22,8 @@ def list (array)
   counter = 0 
   while array[counter]do
     puts "#{counter+1}. #{array[counter}"
+    counter +=1
+  end
     
 
 
