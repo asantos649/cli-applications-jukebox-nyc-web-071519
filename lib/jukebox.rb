@@ -54,6 +54,8 @@ def run(array)
       list(array)
     elsif reply == "play"
       play (array)
+    else
+      reply = "exit"
     end
   end
   exit_jukebox
