@@ -26,6 +26,9 @@ def list (array)
   end
 end
     
+def play (array)
+  puts "Please enter a song name or number:"
+  reply = gets.chomp
 
 
 
