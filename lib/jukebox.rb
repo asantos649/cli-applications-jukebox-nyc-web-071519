@@ -48,11 +48,11 @@ def run(array)
   puts "Please enter a command:"
   reply = gets.chomp
   while reply != "exit" do
-    if input == "help"
+    if reply == "help"
       help
-    elsif input == "list"
+    elsif reply == "list"
       list(array)
-    elsif input == "play"
+    elsif reply == "play"
       play (array)
     end
   end
