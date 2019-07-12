@@ -50,11 +50,11 @@ def run(array)
 #  loop do 
   until reply = "exit" 
     if reply == "help"
-      #help
+      help
     elsif reply == "list"
       list(array)
     elsif reply == "play"
-      play (array)
+      #play (array)
     #else
     #  reply = "exit"
     end
