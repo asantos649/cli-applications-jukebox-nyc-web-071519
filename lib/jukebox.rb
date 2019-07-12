@@ -53,7 +53,7 @@ def run(array)
     if reply == "help"
       help
     elsif reply == "list"
-      list(array)
+      return list(array)
     elsif reply == "play"
       play (array)
     #else
