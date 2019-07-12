@@ -29,6 +29,13 @@ end
 def play (array)
   puts "Please enter a song name or number:"
   reply = gets.chomp
+  counter = 0 
+  while array[counter] do
+    if array[counter].include? reply
+      return "Playing #{array[counter}"
+    end
+  end
+  "Invalid input, please try again"
 
 
 
