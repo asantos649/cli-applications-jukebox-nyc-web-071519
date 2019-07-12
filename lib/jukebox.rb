@@ -43,7 +43,7 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run 
+def run(array) 
   help
   puts "Please enter a command:"
   reply = gets.chomp
@@ -51,9 +51,9 @@ def run
     if input == "help"
       help
     elsif input == "list"
-      list
+      list(array)
     elsif input == "play"
-      play
+      play (array)
     end
   end
   exit_jukebox
