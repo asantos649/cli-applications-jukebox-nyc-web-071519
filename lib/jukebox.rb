@@ -27,7 +27,7 @@ def list (array)
 end
     
 def play (array)
-  puts "Please enter a song name or number:"
+  #puts "Please enter a song name or number:"
   reply = gets.chomp
   counter = 0 
   while array[counter] do
