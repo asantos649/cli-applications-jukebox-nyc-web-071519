@@ -32,11 +32,11 @@ def play (array)
   counter = 0 
   while array[counter] do
     if array[counter].include? reply
-      return "Playing #{array[counter]}"
+      puts "Playing #{array[counter]}"
     end
     counter += 1
   end
-  "Invalid input, please try again"
+  puts "Invalid input, please try again"
 end
 
 
