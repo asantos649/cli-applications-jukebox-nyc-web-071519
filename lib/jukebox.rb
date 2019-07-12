@@ -44,8 +44,8 @@ def exit_jukebox
 end
 
 def run(array) 
-  help
-  puts "Please enter a command:"
+#  help
+#  puts "Please enter a command:"
   reply = gets.chomp
 #  return reply
 #  loop do 
