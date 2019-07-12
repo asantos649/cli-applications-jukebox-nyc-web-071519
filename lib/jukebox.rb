@@ -49,7 +49,7 @@ def run(array)
   reply = gets.chomp
 #  return reply
 #  loop do 
-  until reply = "exit" 
+  #until reply = "exit" 
     if reply == "help"
       help
     elsif reply == "list"
@@ -59,7 +59,7 @@ def run(array)
     #else
     #  reply = "exit"
     end
-  end
+ # end
 #  exit_jukebox
 end
   
