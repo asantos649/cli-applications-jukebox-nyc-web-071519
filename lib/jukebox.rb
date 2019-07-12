@@ -55,7 +55,7 @@ def run(array)
     elsif reply == "list"
       return list(array)
     elsif reply == "play"
-      play (array)
+      return play (array)
     #else
     #  reply = "exit"
     end
